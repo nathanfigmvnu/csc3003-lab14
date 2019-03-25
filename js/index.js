@@ -1,3 +1,6 @@
-import {Howl, Howler} from 'howler';
-
-console.log("Hello NPM");
+function play() {
+    let sound = new Howl({
+        src: ['media/cute.mp3']
+    });
+    sound.play();
+}
